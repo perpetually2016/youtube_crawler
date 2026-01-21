@@ -1,0 +1,1 @@
+ls *.mp4 | sed 's/\.mp4$//' | sed 's|^|https://www.youtube.com/watch?v=|' > ../urls.txt
